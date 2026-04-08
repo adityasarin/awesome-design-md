@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Baking Business</title>
+    <link href="https://fonts.googleapis.com/css2?family=Cereal:wght@400&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Cereal', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #ffffff;
+            color: #222222;
+        }
+        .hero {
+            background-color: #ff385c;
+            color: #ffffff;
+            padding: 50px 20px;
+            text-align: center;
+        }
+        .product-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+            gap: 20px;
+            padding: 20px;
+        }
+        .product {
+            background: #ffffff;
+            border: 1px solid #dedede;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+            text-align: center;
+            padding: 10px;
+        }
+        .testimonials {
+            padding: 20px;
+            background-color: #f9f9f9;
+            text-align: center;
+        }
+        .contact {
+            padding: 20px;
+            text-align: center;
+        }
+        h1, h2, h3 {
+            margin: 10px 0;
+        }
+        .shadow {
+            box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1), 0 6px 12px rgba(0, 0, 0, 0.1), 0 12px 24px rgba(0, 0, 0, 0.1);
+        }
+    </style>
+</head>
+<body>
+    <section class="hero">
+        <h1>Welcome to Our Home Baking Business!</h1>
+        <p>Explore our delicious baked goods made with love!</p>
+    </section>
+    <section class="product-showcase">
+        <h2>Featured Baked Goods</h2>
+        <div class="product-grid">
+            <div class="product shadow">
+                <h3>Chocolate Cake</h3>
+                <p>Rich and moist chocolate cake.</p>
+            </div>
+            <div class="product shadow">
+                <h3>Vanilla Cupcakes</h3>
+                <p>Fluffy vanilla cupcakes with buttercream frosting.</p>
+            </div>
+            <div class="product shadow">
+                <h3>Red Velvet Cookies</h3>
+                <p>Soft and chewy red velvet cookies.</p>
+            </div>
+        </div>
+    </section>
+    <section class="testimonials">
+        <h2>What Our Customers Say</h2>
+        <p>"Amazing baked goods! My favorite place to order from."</p>
+        <p>"Fresh and delicious! Highly recommended!"</p>
+    </section>
+    <section class="contact">
+        <h2>Contact Us</h2>
+        <p>For orders and inquiries, reach us at: <strong>contact@homebaking.com</strong></p>
+    </section>
+</body>
+</html>
